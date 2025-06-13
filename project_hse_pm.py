@@ -191,15 +191,6 @@ def main():
     application.run_polling()
 
 
-if __name__ == '__main__':
-    main()
-    application.add_handler(CommandHandler("start", start))
-    application.add_handler(CommandHandler("help", help_command))
-    application.add_handler(CommandHandler("flights", flights))
-
-    print("\n✈️🤖 Бот запущен! Нажмите Ctrl+C для остановки.\n")
-    application.run_polling()
-
 
 if __name__ == '__main__':
     main()
